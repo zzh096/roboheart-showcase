@@ -1,0 +1,25 @@
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.log
+*.zip
+*.7z
+*.rar
+*.exe
+*.dll
+*.app/
+Library/
+Temp/
+Build/
+Builds/
+Recordings/
+
+# Game packages belong in GitHub Release attachments after confirmation.

@@ -1,0 +1,31 @@
+name: 试玩问题反馈
+description: 记录已发布试玩版本的问题。
+title: "[试玩问题] "
+body:
+  - type: markdown
+    attributes:
+      value: 请填写实际试玩的版本与平台。截图和日志请隐藏私人信息。
+  - type: input
+    id: version
+    attributes:
+      label: 版本与试玩入口
+      description: 下载包名称、Release 版本或网页地址。
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: 操作系统与浏览器
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤与实际情况
+      description: 说明章节、位置、操作，以及你期待的结果。
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: 截图或日志（可选）
